@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67566381A2C5B1DEDC8B06B6 /* Pods_GTU_QPaper_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC3FE2DBD167C67851E01B9 /* Pods_GTU_QPaper_Finder.framework */; };
+		B307D73B1FC0AB2200CF47D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307D73A1FC0AB2200CF47D5 /* AppDelegate.swift */; };
+		B307D7431FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B307D7411FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodeld */; };
+		B307D7451FC0AB2200CF47D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B307D7441FC0AB2200CF47D5 /* Assets.xcassets */; };
+		B307D7481FC0AB2200CF47D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B307D7461FC0AB2200CF47D5 /* LaunchScreen.storyboard */; };
+		B307D7501FC0AB5B00CF47D5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307D74F1FC0AB5B00CF47D5 /* Extension.swift */; };
+		B307D7541FC0AB6900CF47D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307D7511FC0AB6900CF47D5 /* HomeViewController.swift */; };
+		B307D7561FC0AB6A00CF47D5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307D7531FC0AB6900CF47D5 /* Constant.swift */; };
+		B308ADF61FC4A35C002AA721 /* SavedPaperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308ADF51FC4A35C002AA721 /* SavedPaperTableViewCell.swift */; };
+		B308ADF91FC4A3F2002AA721 /* SavedPaperHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B308ADF71FC4A3F2002AA721 /* SavedPaperHeaderTableViewCell.swift */; };
+		B383B97F1FC0ABA000C1B224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B383B97E1FC0ABA000C1B224 /* Main.storyboard */; };
+		B383B9811FC0ADCD00C1B224 /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383B9801FC0ADCD00C1B224 /* CoredataManager.swift */; };
+		B39F690A2000A62B002B5051 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B39F69092000A62A002B5051 /* GoogleService-Info.plist */; };
+		B3A67AEF1FC1D310005CA2B9 /* SearchPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A67AEE1FC1D310005CA2B9 /* SearchPaperViewController.swift */; };
+		B3A67AF11FC20934005CA2B9 /* ValidPaperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A67AF01FC20934005CA2B9 /* ValidPaperTableViewCell.swift */; };
+		B3E8C79A1FC755520003B9E5 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E8C7991FC755520003B9E5 /* PDFViewController.swift */; };
+		B3E8C79C1FC759410003B9E5 /* RenamePaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E8C79B1FC759410003B9E5 /* RenamePaperViewController.swift */; };
+		B3F73CD61FD1DC7F002F055F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F73CD51FD1DC7F002F055F /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35467765CCAAAADC393EF0CE /* Pods-GTU QPaper Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTU QPaper Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTU QPaper Finder/Pods-GTU QPaper Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		5ACBDA5959E9680F32675EA8 /* Pods-GTU QPaper Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTU QPaper Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTU QPaper Finder/Pods-GTU QPaper Finder.release.xcconfig"; sourceTree = "<group>"; };
+		B307D7371FC0AB2200CF47D5 /* GTU QPaper Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTU QPaper Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B307D73A1FC0AB2200CF47D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B307D7421FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GTU_QPaper_Finder.xcdatamodel; sourceTree = "<group>"; };
+		B307D7441FC0AB2200CF47D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B307D7471FC0AB2200CF47D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B307D7491FC0AB2200CF47D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B307D74F1FC0AB5B00CF47D5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B307D7511FC0AB6900CF47D5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B307D7531FC0AB6900CF47D5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B308ADF51FC4A35C002AA721 /* SavedPaperTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPaperTableViewCell.swift; sourceTree = "<group>"; };
+		B308ADF71FC4A3F2002AA721 /* SavedPaperHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPaperHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B383B97E1FC0ABA000C1B224 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B383B9801FC0ADCD00C1B224 /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		B39F69092000A62A002B5051 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3A67AEE1FC1D310005CA2B9 /* SearchPaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPaperViewController.swift; sourceTree = "<group>"; };
+		B3A67AF01FC20934005CA2B9 /* ValidPaperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPaperTableViewCell.swift; sourceTree = "<group>"; };
+		B3E8C7991FC755520003B9E5 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		B3E8C79B1FC759410003B9E5 /* RenamePaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenamePaperViewController.swift; sourceTree = "<group>"; };
+		B3F73CD51FD1DC7F002F055F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DAC3FE2DBD167C67851E01B9 /* Pods_GTU_QPaper_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTU_QPaper_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B307D7341FC0AB2200CF47D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67566381A2C5B1DEDC8B06B6 /* Pods_GTU_QPaper_Finder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348CB7DC5A3EC72D8701CB5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35467765CCAAAADC393EF0CE /* Pods-GTU QPaper Finder.debug.xcconfig */,
+				5ACBDA5959E9680F32675EA8 /* Pods-GTU QPaper Finder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B307D72E1FC0AB2200CF47D5 = {
+			isa = PBXGroup;
+			children = (
+				B307D7391FC0AB2200CF47D5 /* GTU QPaper Finder */,
+				B307D7381FC0AB2200CF47D5 /* Products */,
+				348CB7DC5A3EC72D8701CB5F /* Pods */,
+				F8F374BF9D2F42F3A18F38A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B307D7381FC0AB2200CF47D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B307D7371FC0AB2200CF47D5 /* GTU QPaper Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B307D7391FC0AB2200CF47D5 /* GTU QPaper Finder */ = {
+			isa = PBXGroup;
+			children = (
+				B39F69092000A62A002B5051 /* GoogleService-Info.plist */,
+				B383B97E1FC0ABA000C1B224 /* Main.storyboard */,
+				B307D7531FC0AB6900CF47D5 /* Constant.swift */,
+				B308ADF21FC49A3D002AA721 /* ViewController */,
+				B308ADF11FC49A32002AA721 /* Cell */,
+				B307D74F1FC0AB5B00CF47D5 /* Extension.swift */,
+				B307D73A1FC0AB2200CF47D5 /* AppDelegate.swift */,
+				B307D7441FC0AB2200CF47D5 /* Assets.xcassets */,
+				B307D7461FC0AB2200CF47D5 /* LaunchScreen.storyboard */,
+				B307D7491FC0AB2200CF47D5 /* Info.plist */,
+				B307D7411FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodeld */,
+				B383B9801FC0ADCD00C1B224 /* CoredataManager.swift */,
+			);
+			path = "GTU QPaper Finder";
+			sourceTree = "<group>";
+		};
+		B308ADF11FC49A32002AA721 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B308ADF51FC4A35C002AA721 /* SavedPaperTableViewCell.swift */,
+				B3A67AF01FC20934005CA2B9 /* ValidPaperTableViewCell.swift */,
+				B308ADF71FC4A3F2002AA721 /* SavedPaperHeaderTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B308ADF21FC49A3D002AA721 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B307D7511FC0AB6900CF47D5 /* HomeViewController.swift */,
+				B3A67AEE1FC1D310005CA2B9 /* SearchPaperViewController.swift */,
+				B3E8C7991FC755520003B9E5 /* PDFViewController.swift */,
+				B3E8C79B1FC759410003B9E5 /* RenamePaperViewController.swift */,
+				B3F73CD51FD1DC7F002F055F /* InfoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F8F374BF9D2F42F3A18F38A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC3FE2DBD167C67851E01B9 /* Pods_GTU_QPaper_Finder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B307D7361FC0AB2200CF47D5 /* GTU QPaper Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B307D74C1FC0AB2200CF47D5 /* Build configuration list for PBXNativeTarget "GTU QPaper Finder" */;
+			buildPhases = (
+				82618310D6DBE38E7AD7300E /* [CP] Check Pods Manifest.lock */,
+				B307D7331FC0AB2200CF47D5 /* Sources */,
+				B307D7341FC0AB2200CF47D5 /* Frameworks */,
+				B307D7351FC0AB2200CF47D5 /* Resources */,
+				6A0EE674E6DC5BB770B976DF /* [CP] Embed Pods Frameworks */,
+				89B3160EDBA04E2CE818924F /* [CP] Copy Pods Resources */,
+				B3F73CD41FD1D580002F055F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTU QPaper Finder";
+			productName = "GTU QPaper Finder";
+			productReference = B307D7371FC0AB2200CF47D5 /* GTU QPaper Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B307D72F1FC0AB2200CF47D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = mammoth;
+				TargetAttributes = {
+					B307D7361FC0AB2200CF47D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B307D7321FC0AB2200CF47D5 /* Build configuration list for PBXProject "GTU QPaper Finder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B307D72E1FC0AB2200CF47D5;
+			productRefGroup = B307D7381FC0AB2200CF47D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B307D7361FC0AB2200CF47D5 /* GTU QPaper Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B307D7351FC0AB2200CF47D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39F690A2000A62B002B5051 /* GoogleService-Info.plist in Resources */,
+				B383B97F1FC0ABA000C1B224 /* Main.storyboard in Resources */,
+				B307D7481FC0AB2200CF47D5 /* LaunchScreen.storyboard in Resources */,
+				B307D7451FC0AB2200CF47D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A0EE674E6DC5BB770B976DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTU QPaper Finder/Pods-GTU QPaper Finder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTU QPaper Finder/Pods-GTU QPaper Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82618310D6DBE38E7AD7300E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTU QPaper Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B3160EDBA04E2CE818924F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTU QPaper Finder/Pods-GTU QPaper Finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F73CD41FD1D580002F055F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 2e58d7d4e41ccd61c3c4375d4afa7b57e36d6449 35c14e4e764c17af15f9d97d8cea3fc0fa44a5f28df40cdc51763e9bdbb70a29";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B307D7331FC0AB2200CF47D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B383B9811FC0ADCD00C1B224 /* CoredataManager.swift in Sources */,
+				B3E8C79C1FC759410003B9E5 /* RenamePaperViewController.swift in Sources */,
+				B3E8C79A1FC755520003B9E5 /* PDFViewController.swift in Sources */,
+				B307D7561FC0AB6A00CF47D5 /* Constant.swift in Sources */,
+				B307D7541FC0AB6900CF47D5 /* HomeViewController.swift in Sources */,
+				B308ADF91FC4A3F2002AA721 /* SavedPaperHeaderTableViewCell.swift in Sources */,
+				B308ADF61FC4A35C002AA721 /* SavedPaperTableViewCell.swift in Sources */,
+				B307D73B1FC0AB2200CF47D5 /* AppDelegate.swift in Sources */,
+				B307D7431FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodeld in Sources */,
+				B3F73CD61FD1DC7F002F055F /* InfoViewController.swift in Sources */,
+				B3A67AF11FC20934005CA2B9 /* ValidPaperTableViewCell.swift in Sources */,
+				B307D7501FC0AB5B00CF47D5 /* Extension.swift in Sources */,
+				B3A67AEF1FC1D310005CA2B9 /* SearchPaperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B307D7461FC0AB2200CF47D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307D7471FC0AB2200CF47D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B307D74A1FC0AB2200CF47D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B307D74B1FC0AB2200CF47D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B307D74D1FC0AB2200CF47D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35467765CCAAAADC393EF0CE /* Pods-GTU QPaper Finder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54QU2WU97C;
+				INFOPLIST_FILE = "GTU QPaper Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wordpress.namanmvaishnav.GTU-QPaper-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B307D74E1FC0AB2200CF47D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACBDA5959E9680F32675EA8 /* Pods-GTU QPaper Finder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54QU2WU97C;
+				INFOPLIST_FILE = "GTU QPaper Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wordpress.namanmvaishnav.GTU-QPaper-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B307D7321FC0AB2200CF47D5 /* Build configuration list for PBXProject "GTU QPaper Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307D74A1FC0AB2200CF47D5 /* Debug */,
+				B307D74B1FC0AB2200CF47D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B307D74C1FC0AB2200CF47D5 /* Build configuration list for PBXNativeTarget "GTU QPaper Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307D74D1FC0AB2200CF47D5 /* Debug */,
+				B307D74E1FC0AB2200CF47D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B307D7411FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B307D7421FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodel */,
+			);
+			currentVersion = B307D7421FC0AB2200CF47D5 /* GTU_QPaper_Finder.xcdatamodel */;
+			path = GTU_QPaper_Finder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B307D72F1FC0AB2200CF47D5 /* Project object */;
+}

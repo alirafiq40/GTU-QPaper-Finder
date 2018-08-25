@@ -1,0 +1,6 @@
+framework module Pods_GTU_QPaper_Finder {
+  umbrella header "Pods-GTU QPaper Finder-umbrella.h"
+
+  export *
+  module * { export * }
+}
